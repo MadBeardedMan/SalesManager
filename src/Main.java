@@ -6,5 +6,6 @@ public class Main {
         }
         SalesManager sale = new SalesManager(monthlySales);
         System.out.println("Наибольшее количество продаж в месяц в текущем году равно: " + sale.max());
+        System.out.println("Обрезанное среднее количество продаж в месяц в текущем году равно: " + sale.cutAverage());
     }
 }
