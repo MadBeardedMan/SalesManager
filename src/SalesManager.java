@@ -14,11 +14,11 @@ public class SalesManager {
         }
         return max;
     }
-    public int cutAverage () {
-        int max = sales[0];
-        int min = sales[0];
-        int average = 0;
-        for (int sale : sales) {
+    public long cutAverage () {
+        long max = sales[0];
+        long min = sales[0];
+        long average = 0;
+        for (long sale : sales) {
             if (sale > max) {
                 max = sale;
             }
